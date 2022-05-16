@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-data/
-!data/select_file.ipynb
+
+# data folder
+!data/
+data/*
+!data/*.ipynb
