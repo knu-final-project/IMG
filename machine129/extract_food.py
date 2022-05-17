@@ -2,7 +2,7 @@ def extract_food_label(filelist):
     foodlist = []
     for filename in filelist:
         filename1 = filename.lstrip('Label/trans_labels_')
-        findname = filename.find('_')
+        findname = filename1.find('_')
         foodname = filename1[findname+1:]
         foodlist.append(foodname)
     return foodlist
