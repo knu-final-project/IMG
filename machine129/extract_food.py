@@ -21,6 +21,6 @@ def match_food(foodname, filelist):
     for filename in filelist:
         if foodname in filename:
             x = filename
-    return filename
+    return x
     
 
