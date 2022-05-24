@@ -19,5 +19,5 @@ names:
 - gyelanhulai
 - gyelanmal-i
 nc: 19
-train: /content/mount/MyDrive/IMG/train.txt
-val: /content/mount/MyDrive/IMG/val.txt
+train: train.txt
+val: val.txt
